@@ -4,3 +4,5 @@
 
 [건망증이 심한 엔지니어](https://techstock.biz){:target="_blank"}
 ['test'](http://www.example.com/){: target="_blank" }
+
+['test'](http://www.example.com/){: .btn.btn-default target="_blank" }
