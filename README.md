@@ -4,3 +4,5 @@
 
 
 <a href="https://www.naver.com" target="_blank">NAVER</a>
+
+<a href="https://www.google.com/" target="_blank">새 탭에서 열기</a>
