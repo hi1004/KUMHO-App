@@ -4,7 +4,7 @@
 >
 > [DEMO](https://bit.ly/3Az3nqA)
 
-![image](https://raw.githubusercontent.com/hi1004/marugame-App/master/img/readme.jpg)
+![image](https://raw.githubusercontent.com/hi1004/KUMHO-App/master/images/readme.jpg)
 
 </br>
 
@@ -22,26 +22,25 @@
 - HTML5
 - CSS3
 - jquery 3
-- Slick
-- ScrollMagic
+- Fullpage
 
 <br>
 
 ## 3. コア機能
 
-- Slick ライブラリーでスライド実装。
-- ScrollMagic ライブラリーを使い、scroll の時、画面転換効果実装。
+- scroll の時 animation effect 実装。
+- tablet 以下のデバイスには Fullpage ライブラリーを使い、scroll の時、画面転換効果実装。
 
 <details>
 	<summary><b>コードで見るコア機能</b></summary>
   
-### 3.1. スライド
+### 3.1. Scroll Animation Effect
 
-- **Slick ライブラリー** :pushpin: [コード確認](https://github.com/hi1004/marugame-App/blob/master/js/index.js#L166-L329)
+- **Animation Effect ー** :pushpin: [コード確認](https://github.com/hi1004/KUMHO-App/blob/master/js/scroll_for.js#L1-L29)
 
-### 3.2. ScrollMagic
+### 3.2. Fullpage
 
-- **ScrollMagic ライブラリー** :pushpin: [コード確認](https://github.com/hi1004/marugame-App/blob/master/js/index.js#L333-L377)
+- **tablet 以下のデバイスー** :pushpin: [コード確認](https://github.com/hi1004/KUMHO-App/blob/master/js/tab.js#L1-L34)
 
 </details>
 
@@ -49,6 +48,7 @@
 
 ## 4. 成果 & 感じたこと
 
-- Slick ライブラリーについて理解できました。
-- ScrollMagic ライブラリーについて勉強になりました。
-- 言語が日本語である初プロジェクトです。
+- Scroll Animation Effect をライブラリーなしで実装することができました。
+- 初プロジェクトだったので、思ったより時間がかかりました。
+- Responseve ウェブサイトを初めて作ったので自信がつきました。
+- jquery の勉強になりました。
