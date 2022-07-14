@@ -1,85 +1,87 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>fullPage.js</title>
 
     <!-- css files -->
-    <link href="http://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,700' rel='stylesheet' type='text/css">    
-    
-    <link href="css/jquery.fullpage.min.css" rel="stylesheet"> 
+    <link
+      href="http://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,700' rel='stylesheet' type='text/css"
+    />
+
+    <link href="css/jquery.fullpage.min.css" rel="stylesheet" />
     <!--<link href="css/main.css" rel="stylesheet">-->
     <script src="../jquery-3.5.1.min.js"></script>
     <style>
-        #fullpage section:nth-child(1){
-            background-color:red;
-        } 
-        #fullpage section:nth-child(2){
-            background-color:yellow;
-        }  
+      #fullpage section:nth-child(1) {
+        background-color: red;
+      }
+      #fullpage section:nth-child(2) {
+        background-color: yellow;
+      }
     </style>
   </head>
   <body>
-  
-  <div id="fullpage">
+    <div id="fullpage">
       <section class="fullpage_section">
-          <h1>1</h1>
+        <h1>1</h1>
       </section>
       <section class="fullpage_section">
-          <h1>1</h1>
+        <h1>1</h1>
       </section>
       <section class="fullpage_section">
-          <h1>1</h1>
+        <h1>1</h1>
       </section>
       <section class="fullpage_section">
-          <h1>1</h1>
+        <h1>1</h1>
       </section>
-  </div>
-
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.min.js"></script>
     <script src="js/jquery.fullpage.min.js"></script>
     <script type="text/javascript">
-        
-$(document).ready(function(){
-    
-    
-  
-  // fullpage customization
-  $('#fullpage').fullpage({
-    sectionSelector: '.fullpage_section',
-    /*slideSelector: '.slide',*/
-      lazyLoading: true,
-    navigation: true,
-    navigationTooltips: ['HOME', 'NAVIGATION', 'COMPANY', 'BUSINESS', 'NEWS & TOPICS', 'CONTACT'],
-    slidesNavigation: true,
-    css3: true,
-    controlArrows: true ,
-    scrollingSpeed: 700,
-    anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'lastPage'],
-    autoScrolling: true,
-    
-    scrollBar:true,
-    navigationPosition: 'left',
-      easing : 'easeInOutCubic',
-      easingcss3: 'ease',
-      loopBottom: true,
-      loopHorizontal:true,
-      
-      scrollHorizontally: true,
-      
-      normalScrollElements:'#wrap',
-      scrollOverflow: true,
-      animationAnchor : true,
-      
-      
-      
-  }); 
-    
+      $(document).ready(function () {
+        // fullpage customization
+        $('#fullpage').fullpage({
+          sectionSelector: '.fullpage_section',
+          /*slideSelector: '.slide',*/
+          lazyLoading: true,
+          navigation: true,
+          navigationTooltips: [
+            'HOME',
+            'NAVIGATION',
+            'COMPANY',
+            'BUSINESS',
+            'NEWS & TOPICS',
+            'CONTACT',
+          ],
+          slidesNavigation: true,
+          css3: true,
+          controlArrows: true,
+          scrollingSpeed: 700,
+          anchors: [
+            'firstPage',
+            'secondPage',
+            'thirdPage',
+            'fourthPage',
+            'lastPage',
+          ],
+          autoScrolling: true,
 
+          scrollBar: true,
+          navigationPosition: 'left',
+          easing: 'easeInOutCubic',
+          easingcss3: 'ease',
+          loopBottom: true,
+          loopHorizontal: true,
 
-  
-});  
+          scrollHorizontally: true,
+
+          normalScrollElements: '#wrap',
+          scrollOverflow: true,
+          animationAnchor: true,
+        });
+      });
     </script>
   </body>
 </html>
